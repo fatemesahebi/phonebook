@@ -1,0 +1,97 @@
+.select-contact {
+    background-color: rgba(225, 225, 225, 0.63);
+    width: 25vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+#option-part{
+    border: none;
+}
+#close, #edit,#delete, #verify{
+    width: 25px;
+    height: 25px;
+}
+#edit,#verify{
+    float: right;
+}
+.select-contact div{
+    border-bottom: 1px solid gainsboro;
+    width: 90%;
+}
+.select-contact img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    align-self: center;
+    margin-top: 50px;
+
+}
+.contact-info{
+    padding-left:40px ;
+    color: #555555;
+}
+
+.select-contact input{
+    border: none;
+    outline: none;
+    background-color:unset;
+    min-height: 50px;
+    font-size: 1.6rem;
+    color: #d73f3f;
+    font-weight: 700;
+    display: block;
+    padding-left: 40px;
+}
+.select-contact label{
+    display: block;
+    padding-top: 30px;
+}
+.radio-input input{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.select-contact-link{
+    text-decoration: none;
+    color:#555555 ;
+}
+.select-contact-btn{
+    margin-top: 50px;
+}
+.select-contact-btn:hover{
+    border: 1px solid #d73f3f;
+}
+.select-contact-btn:hover .select-contact-link{
+    color: #d73f3f;
+}
+@media screen and (max-width: 750px){
+    .select-contact {
+        width: 100vw;
+        position: fixed;
+        z-index: 1000;
+        background-color:white;
+    }
+    .select-contact img{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+
+    }
+    .select-contact div{
+        width: 70%;
+        margin: auto;
+    }
+    .select-contact-btn{
+        margin-top:10px;
+    }
+    #option-part{
+        width: 80vw;
+    }
+}
+
+
+
+

@@ -1,0 +1,54 @@
+#contactPartContainer{
+    display: flex;
+    flex-direction:column;
+    padding:30px 0 0 50px;
+    width:60vw;
+    margin-left: 15vw;
+
+}
+#contactPartContainer-head{
+    display: flex;
+    flex-direction: row;
+    column-gap:50px ;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+#filterSelect{
+    color: #f83838;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+#contactPartContainer-head img{
+    width: 30px;
+    padding: 0 5px;
+}
+#contactPartContainer-head input{
+    border: none;
+    border-bottom: solid 2px #c5c0c0;
+    outline: none;
+}
+@media screen and (max-width: 750px) {
+    #contactPartContainer{
+        padding:10px 0 0 30px;
+        max-width:500px;
+        margin-left:100px;
+
+    }
+    #contactPartContainer-head{
+        flex-direction: column;
+
+    }
+    #filterSelect{
+        font-size: 2rem;
+    }
+    #search{
+        width: 130px;
+    }
+
+}
+
+
+
+
+

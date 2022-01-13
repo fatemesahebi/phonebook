@@ -1,0 +1,44 @@
+.contact-box{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    align-items: center;
+    border-bottom: 2px solid rgba(203, 197, 197, 0.47);
+
+
+}
+.contact-box p{
+    cursor: pointer;
+}
+.profile-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.phone-Number{
+    align-self: baseline;
+    margin-left: auto;
+    color: #888888;
+}
+.status{
+    color: #888888;
+}
+@media screen and (max-width: 750px) {
+    .contact-box{
+        max-width:200px;
+        flex-direction: column;
+        row-gap:5px;
+        align-items: center;
+
+    }
+    .phone-Number{
+        align-self: unset;
+        margin-left:initial;
+
+    }
+    .profile-photo {
+        padding-top: 20px;
+    }
+    }

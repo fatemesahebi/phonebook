@@ -1,0 +1,35 @@
+.menuBox{
+    background-color: #444242;
+    width:15vw;
+    min-height: 100vh;
+    border-right:4px solid #888888 ;
+    color: #888888;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    position: fixed;
+}
+.menuBox img{
+    width: 40px;
+    height: 40px;
+    padding: 50px 0 15px 0;
+    cursor: pointer;
+}
+#all{
+    color: white;
+    font-weight: 700;
+}
+.filter-text{
+    cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+    body{
+        font-size:1.2rem;
+    }
+   .menuBox{
+       width:100px;
+
+   }
+}

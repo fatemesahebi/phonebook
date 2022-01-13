@@ -1,0 +1,115 @@
+#callPart{
+    background-image: url("./../../images/—Pngtree—background frame with fluid style_1199250.jpg");
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 50px 0;
+}
+.callBox{
+    background-color: rgba(48, 48, 65, 0.81);
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin:auto;
+    color: #ddddf6;
+    column-gap: 200px;
+
+}
+.callBox-personInfo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.callBox-profile{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 40px;
+
+}
+button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin:10px auto;
+}
+.back{
+    background: transparent;
+    border:1px solid  #ddddf6;
+}
+.back:hover{
+    background-color:  #ddddf6;
+}
+.link{
+    color:#ddddf6;
+    text-decoration: none;
+}
+.back:hover .link{
+    color:rgba(48, 48, 65, 0.81);
+
+}
+.callImage{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    padding-bottom: 40px;
+
+}
+.callBox-list{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background:transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.callBox-call{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 780px){
+    .callPart {
+        min-height: 100vh;
+    }
+    .callBox{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        row-gap: 20px;
+height: auto;
+    }
+    .callBox-profile{
+        width: 80px;
+        height: 80px;
+        padding:20px;
+    }
+    .callImage{
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        padding-bottom: 40px;
+
+    }
+    .callBox-list{
+        height: 300px;
+        width:100%;
+        overflow-y: scroll;
+    }
+    .callBox-call{
+column-gap: 20px    }
+
+}
