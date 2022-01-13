@@ -1,6 +1,6 @@
 import {createServer, Model, Response} from "miragejs";
 import {contactList} from "./componenets/index";
-import avatar8 from "./images/kisspng-user-logo-information-service-design-5ba34f88e63387.4679724515374293849429.png";
+import avatar8 from "./images/kisspng-user-logo-information-service-design.png";
 export function makeServer({environment = "test"} = {}) {
     let server = createServer({
         environment,

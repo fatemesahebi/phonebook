@@ -9,7 +9,7 @@ function App(){
             <ContactContexProvider>
                     <BrowserRouter>
                         <Routes>
-                            <Route path={'/'} element={<Home/>}/>
+                            <Route index element={<Home/>}/>
                             <Route path={'/:id'} element={<CallLog/>}/>
                         </Routes>
                     </BrowserRouter>

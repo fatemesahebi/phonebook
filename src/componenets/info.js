@@ -1,22 +1,22 @@
 import avatar2
-    from "../images/kisspng-computer-icons-user-profile-avatar-female-profile-5ab915f7b12a63.4743374115220792237257.png";
+    from "../images/kisspng-computer-icons-user-profile-avatar-female-profile.png";
 import avatar3
-    from "../images/kisspng-computer-icons-icon-design-avatar-flat-face-icon-5ab06e33dcb994.0130540115215119879041.png";
+    from "../images/kisspng-computer-icons-icon-design-avatar-flat-face-icon.png";
 import avatar1
-    from "../images/kisspng-businessperson-computer-icons-avatar-clip-art-lattice-5b0508dcaca9a5.6802267615270566047072.png";
-import avatar6 from "../images/kisspng-computer-icons-avatar-woman-user-profile-boss-lady-5b364336e625e2.3387038015302828069427.png";
+    from "../images/kisspng-businessperson-computer-icons-avatar-clip-art-lattice.png";
+import avatar6 from "../images/kisspng-computer-icons-avatar-woman-user-profile-boss-lady.png";
 import avatar4
-    from "../images/kisspng-computer-icons-user-profile-avatar-woman-business-woman-5ac9fb6c2c7bb5.9550002315231865401822.png";
+    from "../images/kisspng-computer-icons-user-profile-avatar-woman-business-woman.png";
 import avatar5
-    from "../images/kisspng-computer-icons-waiter-user-profile-5b093110750377.2144367115273290404793.png";
+    from "../images/kisspng-computer-icons-waiter-user-profile.png";
 import avatar7
-    from "../images/kisspng-professional-computer-icons-avatar-job-5aec571f160019.6696662915254382390901.png";
+    from "../images/kisspng-professional-computer-icons-avatar-job.png";
 import avatar8
-    from "../images/kisspng-user-logo-information-service-design-5ba34f88e63387.4679724515374293849429.png";
+    from "../images/kisspng-user-logo-information-service-design.png";
 import avatar9
-    from "../images/kisspng-professional-computer-icons-avatar-job-5aec571f160019.6696662915254382390901.png";
+    from "../images/kisspng-professional-computer-icons-avatar-job.png";
 import avatar10
-    from "../images/kisspng-video-game-gamer-electronic-sports-avatar-gaming-5b3fdc92693899.593751021530911890431.png";
+    from "../images/kisspng-video-game-gamer-electronic-sports-avatar-gaming.png";
 
 let contactList = [
     {

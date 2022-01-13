@@ -6,7 +6,7 @@ import inCall from './../../images/icons8-incoming-call-48.png'
 import missCall from './../../images/icons8-missed-call-48.png'
 import {useEffect, useState} from "react";
 import avatar8
-    from "../../images/kisspng-user-logo-information-service-design-5ba34f88e63387.4679724515374293849429.png";
+    from "../../images/kisspng-user-logo-information-service-design.png";
 
 function CallLog(){
     let param=useParams()
