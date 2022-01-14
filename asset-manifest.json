@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ea250a7.css",
-    "main.js": "/static/js/main.94d17fb1.js",
-    "static/media/—Pngtree—background frame with fluid style_1199250.jpg": "/static/media/—Pngtree—background frame with fluid style_1199250.6a3af3e6f027c3dc9b68.jpg",
-    "static/media/kisspng-computer-icons-user-profile-avatar-female-profile.png": "/static/media/kisspng-computer-icons-user-profile-avatar-female-profile.a178d7cdc4ebe5e8940e.png",
-    "static/media/kisspng-businessperson-computer-icons-avatar-clip-art-lattice.png": "/static/media/kisspng-businessperson-computer-icons-avatar-clip-art-lattice.2d6168639ee05eda142c.png",
-    "static/media/kisspng-professional-computer-icons-avatar-job.png": "/static/media/kisspng-professional-computer-icons-avatar-job.f0ed1e1ed23e064fe7e2.png",
-    "static/media/kisspng-user-logo-information-service-design.png": "/static/media/kisspng-user-logo-information-service-design.72f5ff33665a6c5a318b.png",
-    "static/media/kisspng-video-game-gamer-electronic-sports-avatar-gaming.png": "/static/media/kisspng-video-game-gamer-electronic-sports-avatar-gaming.1e6fafada798423afdc8.png",
-    "static/media/kisspng-computer-icons-icon-design-avatar-flat-face-icon.png": "/static/media/kisspng-computer-icons-icon-design-avatar-flat-face-icon.00d92f05e4fec182b3f6.png",
-    "static/media/kisspng-computer-icons-avatar-woman-user-profile-boss-lady.png": "/static/media/kisspng-computer-icons-avatar-woman-user-profile-boss-lady.2ba4e8d82e6f21e2404e.png",
-    "static/media/kisspng-computer-icons-user-profile-avatar-woman-business-woman.png": "/static/media/kisspng-computer-icons-user-profile-avatar-woman-business-woman.79dcb5c33585743c522e.png",
-    "static/media/kisspng-computer-icons-waiter-user-profile.png": "/static/media/kisspng-computer-icons-waiter-user-profile.4409fc9794839e43fbf0.png",
-    "index.html": "/index.html",
-    "main.3ea250a7.css.map": "/static/css/main.3ea250a7.css.map",
-    "main.94d17fb1.js.map": "/static/js/main.94d17fb1.js.map"
+    "main.css": "/phonebook/static/css/main.1b713162.css",
+    "main.js": "/phonebook/static/js/main.e22a3f47.js",
+    "static/media/—Pngtree—background frame with fluid style_1199250.jpg": "/phonebook/static/media/—Pngtree—background frame with fluid style_1199250.6a3af3e6f027c3dc9b68.jpg",
+    "static/media/kisspng-computer-icons-user-profile-avatar-female-profile.png": "/phonebook/static/media/kisspng-computer-icons-user-profile-avatar-female-profile.a178d7cdc4ebe5e8940e.png",
+    "static/media/kisspng-businessperson-computer-icons-avatar-clip-art-lattice.png": "/phonebook/static/media/kisspng-businessperson-computer-icons-avatar-clip-art-lattice.2d6168639ee05eda142c.png",
+    "static/media/kisspng-professional-computer-icons-avatar-job.png": "/phonebook/static/media/kisspng-professional-computer-icons-avatar-job.f0ed1e1ed23e064fe7e2.png",
+    "static/media/kisspng-user-logo-information-service-design.png": "/phonebook/static/media/kisspng-user-logo-information-service-design.72f5ff33665a6c5a318b.png",
+    "static/media/kisspng-video-game-gamer-electronic-sports-avatar-gaming.png": "/phonebook/static/media/kisspng-video-game-gamer-electronic-sports-avatar-gaming.1e6fafada798423afdc8.png",
+    "static/media/kisspng-computer-icons-icon-design-avatar-flat-face-icon.png": "/phonebook/static/media/kisspng-computer-icons-icon-design-avatar-flat-face-icon.00d92f05e4fec182b3f6.png",
+    "static/media/kisspng-computer-icons-avatar-woman-user-profile-boss-lady.png": "/phonebook/static/media/kisspng-computer-icons-avatar-woman-user-profile-boss-lady.2ba4e8d82e6f21e2404e.png",
+    "static/media/kisspng-computer-icons-user-profile-avatar-woman-business-woman.png": "/phonebook/static/media/kisspng-computer-icons-user-profile-avatar-woman-business-woman.79dcb5c33585743c522e.png",
+    "static/media/kisspng-computer-icons-waiter-user-profile.png": "/phonebook/static/media/kisspng-computer-icons-waiter-user-profile.4409fc9794839e43fbf0.png",
+    "index.html": "/phonebook/index.html",
+    "main.1b713162.css.map": "/phonebook/static/css/main.1b713162.css.map",
+    "main.e22a3f47.js.map": "/phonebook/static/js/main.e22a3f47.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ea250a7.css",
-    "static/js/main.94d17fb1.js"
+    "static/css/main.1b713162.css",
+    "static/js/main.e22a3f47.js"
   ]
 }
