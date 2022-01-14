@@ -26,7 +26,6 @@ export function makeServer({environment = "test"} = {}) {
                     note: data.note,
                     photo: data.photo,
                     email: data.email,
-                    id:data.id,
                     callInfo:data.callInfo
                 })
                 return contact
@@ -44,7 +43,6 @@ export function makeServer({environment = "test"} = {}) {
                         note: data.note,
                         photo: data.photo,
                         email: data.email,
-                        id:data.id,
                         callInfo:data.callInfo
                 }
                 return contact

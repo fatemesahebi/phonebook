@@ -2,8 +2,7 @@
   "name": "phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fatemesahebi.github.io/phonebook",
-
+  "homepage": "https://fatemesahebi.github.io/phonebook/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

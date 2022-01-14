@@ -1,4 +1,4 @@
-import {BrowserRouter,Route,Routes} from "react-router-dom";
+import {HashRouter,Route,Routes} from "react-router-dom";
 import Home from './componenets/Home/home'
 import CallLog from "./componenets/callLog/callLog";
 import './app-style.css'
@@ -7,12 +7,12 @@ function App(){
     return(
         <>
             <ContactContexProvider>
-                    <BrowserRouter>
+                    <HashRouter>
                         <Routes>
                             <Route index element={<Home/>}/>
                             <Route path={'/:id'} element={<CallLog/>}/>
                         </Routes>
-                    </BrowserRouter>
+                    </HashRouter>
             </ContactContexProvider>
 
         </>

@@ -24,12 +24,12 @@ function SelectContact() {
         {
             setContacts(contacts.map(item => (item.id === selectUser.id) ? selectUser : item))
         fetch(`/api/contacts/${selectUser.id}`, {
-            method: 'put',
+            method: 'post',
             body:JSON.stringify(selectUser)
         }).then(res =>(res.status===200)? alert('your contact updated successfully') :alert('some thing is wrong! please try again'))
         }
         else {
-            setSelectUser(preSelect => ({...preSelect, id: Math.floor(Math.random() * 10000)}))
+            // setSelectUser(preSelect => ({...preSelect, id: Math.floor(Math.random() * 10000)}))
             setContacts(preContacts => ([...preContacts, selectUser]))
             fetch('/api/contacts', {
                 method: 'post',
